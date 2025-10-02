@@ -36,7 +36,7 @@ export default function ToolsPage() {
         <ul className="list-disc list-inside subtle mb-2">
           <li>Alfred - Pretty nice Mac management plugin a coworker showed me</li>
           <li>Chromium - Open source lol</li>
-          <li>Trello - I'm back in uni so no more kanban boards</li>
+          <li>Trello - Back in uni so no more kanban boards</li>
           <li>Notepad - Usually a physical one</li>
         </ul>
 
@@ -44,7 +44,7 @@ export default function ToolsPage() {
         <ul className="list-disc list-inside subtle mb-2">
           <li>Postman - Good for testing api requests, probably should find a lighter alternative</li>
           <li>MongoDB Compass - Used this in my placement job and want to utilise it more</li>
-          <li>Docker - It's docker</li>
+          <li>Docker - Pretty simple</li>
         </ul>
 
       </div>

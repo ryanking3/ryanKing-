@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="flex flex-col items-start text-left gap-6">
       <div className="space-y-3">
-        <p className="text-lg">Hi, I'm Ryan King</p>
+        <p className="text-lg">Hi, I&apos;m Ryan King</p>
         <p className="text-lg">
           I study CS in Queen&apos;s University Belfast, and I like to program a lot.
         </p>
