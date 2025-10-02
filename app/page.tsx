@@ -1,15 +1,12 @@
 "use client";
 
-import Link from "next/link";
-
 export default function Home() {
   return (
     <div className="flex flex-col items-start text-left gap-6">
-      {/* Bio Section */}
       <div className="space-y-3">
         <p className="text-lg">Hi, I'm Ryan King</p>
         <p className="text-lg">
-          I study CS in Queen's University Belfast, and I like to program a lot.
+          I study CS in Queen&apos;s University Belfast, and I like to program a lot.
         </p>
         <p className="text-lg">
           Always interested in working on cool projects, feel free to get in contact!
@@ -17,7 +14,6 @@ export default function Home() {
         <p className="text-lg subtle">&gt; Stay blessed, always</p>
       </div>
 
-      {/* Contact Section */}
       <div className="space-y-2">
         <h2 className="font-bold text-lg">Email</h2>
         <p>
@@ -25,7 +21,6 @@ export default function Home() {
         </p>
       </div>
 
-      {/* Social Section */}
       <div className="space-y-2">
         <h2 className="font-bold text-lg">Social</h2>
         <ul className="space-y-1">

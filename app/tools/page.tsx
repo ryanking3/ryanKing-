@@ -75,7 +75,7 @@ export default function ToolsPage() {
 
         <h4 className="font-semibold mt-2">Computer</h4>
         <ul className="list-disc list-inside subtle mb-2">
-          <li>MacBook Pro 16" 2019 - Intel chip, 16GB RAM</li>
+          <li>MacBook Pro 16&quot; 2019 - Intel chip, 16GB RAM</li>
           <li>Desktop - 2060ti, 32GB RAM, i7</li>
         </ul>
       </div>
