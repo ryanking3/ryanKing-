@@ -12,7 +12,7 @@ export const projects: Project[] = [
 id: '1',
 title: 'icy.wtf',
 description: 'This portfolio / blog site',
-href: '#',
+href: 'https://github.com/ryanking3/ryanKing-',
 tech: ['Next.js', 'Typescript', 'Vercel', 'TailwindCSS'],
 },
 {
