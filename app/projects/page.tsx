@@ -26,16 +26,16 @@ export default function ProjectsPage() {
         <h2 className="text-2xl font-bold mb-3" {...props} />
       ),
       p: ({ node, ...props }) => <p className="subtle mb-2" {...props} />,
-      code: (({ inline, className, children, ...props }: { inline?: boolean; className?: string; children: ReactNode }) => (
+      code: ({ inline, className, children, ...props }) => (
         <code
           className={`bg-black px-1 py-0.5 rounded text-[#46A0E0] ${
             inline ? "text-sm" : "block overflow-x-auto p-2"
           }`}
           {...props}
         >
-          {children}
+          {children as ReactNode}
         </code>
-      )) as any,
+      ),
     };
 
     return (
