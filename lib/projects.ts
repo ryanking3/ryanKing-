@@ -19,7 +19,7 @@ tech: ['Next.js', 'Typescript', 'Vercel', 'TailwindCSS'],
 id: '2',
 title: 'Monero exchange',
 description: 'WIP Chrome extension to see prices in XMR',
-href: '#',
+href: 'https://github.com/ryanking3/monero-extension',
 tech: ['JSON', 'TypeScript'],
 },
 {
