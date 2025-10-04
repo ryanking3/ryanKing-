@@ -10,7 +10,7 @@ tech?: string[]
 export const projects: Project[] = [
 {
 id: '1',
-title: 'icy.wtf',
+title: 'ryanking.online',
 description: 'This portfolio / blog site',
 href: 'https://github.com/ryanking3/ryanKing-',
 tech: ['Next.js', 'Typescript', 'Vercel', 'TailwindCSS'],
