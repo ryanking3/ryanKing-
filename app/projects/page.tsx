@@ -92,7 +92,7 @@ export default function ProjectsPage() {
       <Section>
         <h2 className="text-2xl font-bold mb-4">Curriculum Vitae</h2>
         <a
-          href="/ryankingcv.pdf"
+          href="/RyanKingCV.pdf"
           target="_blank"
           className="underline hover:text-[#46A0E0]"
         >
