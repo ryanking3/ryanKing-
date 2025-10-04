@@ -88,6 +88,17 @@ export default function ProjectsPage() {
           ))}
         </div>
       </Section>
+
+      <Section>
+        <h2 className="text-2xl font-bold mb-4">Curriculum Vitae</h2>
+        <a
+          href="/ryankingcv.pdf"
+          target="_blank"
+          className="underline hover:text-[#46A0E0]"
+        >
+          Download CV
+        </a>
+      </Section>
     </>
   );
 }
