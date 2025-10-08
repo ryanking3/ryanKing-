@@ -21,7 +21,7 @@ export default function YtConvertPage() {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
-                    "x-api-key": process.env.NEXT_PUBLIC_API_KEY || "",
+                    "x-api-key": "my_super_secret_key_123",
                 },
                 body: JSON.stringify({ url }),
             });
