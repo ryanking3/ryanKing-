@@ -19,11 +19,8 @@ export default function YtConvertPage() {
         try {
             const res = await fetch(`${backendUrl}/api/convert`, {
                 method: "POST",
-                headers: {
-                    "Content-Type": "application/json",
-                    "x-api-key": "my_super_secret_key_123",
-                },
-                body: JSON.stringify({ url }),
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ url, apiKey: "my_super_secret_key_123" }),
             });
 
             if (!res.ok) throw new Error("Conversion failed");
