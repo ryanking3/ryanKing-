@@ -30,8 +30,12 @@ export default function YtConvertPage() {
 
             const data = await res.json();
             setDownloadUrl(data.download_url);
-        } catch (err: any) {
-            setError(err.message || "Something went wrong");
+        } catch (err) {
+            if (err instanceof Error) {
+                setError(err.message);
+            } else {
+                setError("Something went wrong");
+            }
         } finally {
             setLoading(false);
         }
